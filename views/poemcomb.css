@@ -28,3 +28,25 @@ nav, a {background-color:#45a1a1;color:black;float:right;border-color:black;bord
 
 .orange {background-color: #dda488; border-width:3px; border-color:black; color:black;padding-top:20px;padding-bottom:20px;}
 
+.linkbuttons{float:none; height:50px;width:50px;}
+
+
+
+/*canned code for the footer*/
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+/*    min-height: 100%;*/
+/*    height: auto !important;
+    height: 100%;*/
+/*    margin: 0 auto -155px; *//* the bottom margin is the negative value of the footer's height 
+*/}
+
+.footer, .push {
+/*    height: 155px;*/ /* .push must be the same height as .footer */
+}
